@@ -3,7 +3,7 @@ NAME
     it
 
 VERSION
-    version 0.02
+    version 0.04
 
 SYNOPSIS
       # in dist.ini
@@ -12,7 +12,7 @@ SYNOPSIS
 
 DESCRIPTION
     Dist::Zilla::Plugin::FakeFaker is a Dist::Zilla plugin for those
-    situations where one has already has a "Makefile.PL" file of one's own
+    situations where one has already got a "Makefile.PL" file of one's own
     that has been lovingly handcrafted to do funky things and one wishes to
     "leverage" the power of Dist::Zilla.
 

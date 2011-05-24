@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::FakeFaker;
 BEGIN {
-  $Dist::Zilla::Plugin::FakeFaker::VERSION = '0.02';
+  $Dist::Zilla::Plugin::FakeFaker::VERSION = '0.04';
 }
 
 #ABSTRACT: Because sometimes you just have to fake it
@@ -27,7 +27,7 @@ Dist::Zilla::Plugin::FakeFaker - Because sometimes you just have to fake it
 
 =head1 VERSION
 
-version 0.02
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -38,7 +38,7 @@ version 0.02
 =head1 DESCRIPTION
 
 Dist::Zilla::Plugin::FakeFaker is a L<Dist::Zilla> plugin for those situations where one has
-already has a C<Makefile.PL> file of one's own that has been lovingly handcrafted to do funky
+already got a C<Makefile.PL> file of one's own that has been lovingly handcrafted to do funky
 things and one wishes to C<leverage> the power of L<Dist::Zilla>.
 
 Instead of specifying C<[MakeMaker]> in one's C<dist.ini>, just specify C<[FakeFaker]> and your

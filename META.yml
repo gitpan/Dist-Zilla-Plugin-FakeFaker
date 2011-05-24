@@ -17,6 +17,6 @@ requires:
   Dist::Zilla::Plugin::MakeMaker: 4.101582
   perl: 5.008005
 resources:
-  homepage: http://github.com/bingos/dist-zilla-plugin-fakefaker/tree
-  repository: git://github.com/bingos/dist-zilla-plugin-fakefaker.git
-version: 0.02
+  homepage: http://github.com/bingos/dist-zilla-plugin-fakefaker
+  repository: http://github.com/bingos/dist-zilla-plugin-fakefaker
+version: 0.04
